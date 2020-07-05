@@ -1,0 +1,188 @@
+body{
+    font-family: "Proxima Nova", sans-serif;
+    margin: 0;
+    display: flex;
+}
+
+.rightcontainer {
+    width: 70%;
+    height: 100%;
+    margin: 0;
+background-color: yellowgreen;
+background-image: url("BG.jpg");
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Logo{
+    width: 50%;
+    padding-top: 40%;
+    padding-bottom: 55%;
+}
+
+.leftcontainer
+{
+    padding: 5%;
+padding-left: 7%;
+padding-top: 6%;
+}
+.content{
+    margin: 0;
+    font-size: 20px;
+    line-height: 148%;
+    color: #656766;
+}
+h1{
+    margin: 0;
+    margin-bottom: 2%;
+    font-family: "source serif pro";
+    font-size: 42px;
+    font-weight: 500;
+    color:#386C05;
+}
+
+ul{
+    margin: 0;
+    margin-top: 5%;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+.card
+{
+    display: flex;
+    border-radius: 4px;
+    margin-bottom: 5%;
+    justify-content: space-between;
+    height: 120px;
+    box-shadow: 0px 4px 10px #88888830;
+}
+.name{
+    margin: auto;
+    margin-right: 0;
+    margin-left: 5%;
+}
+.picture{
+width: 20%;
+height: auto;
+margin:30px;
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
+span{
+    margin: 0;
+    padding: 0;
+}
+.rai{
+    margin-bottom: 2px;
+    padding-bottom: 0;
+}
+
+.gnt .name h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #AF597C;
+    margin-bottom: 5px;
+}
+
+.coco .name h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #00B8B8;
+    margin-bottom: 5px;
+}
+
+.must .name h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #FAAF40;
+    margin-bottom: 5px;
+}
+
+span{
+    font-weight: 400;
+    color: #6B8585;
+    font-size: 16px;
+}
+
+.p1
+{
+    background-image: url("Peanut.png");
+    
+    margin: 20px;
+    padding: 30px;
+    padding-left: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;   
+}
+.p2
+{
+    background-image: url("Coconut.png");
+    
+    margin: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding: 10px;
+    padding-left: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.p3
+{
+    background-image: url("Raai@2x\ 1.png");
+margin-right: 45px;
+    padding: 10px;
+    padding-left: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px)
+{
+    body{
+        display: block;
+    }
+    .rightcontainer{
+        width: 100%;
+    }
+    h1{
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .leftcontainer{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 70px;
+    }
+    .content{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .card{
+        height: 90px;
+    }
+    .card .name h3{
+        font-size: 16px;
+        margin-bottom: 1px;
+    }
+    span{
+        font-size: 12px;
+    }
+    .p1{
+        margin: 10px;
+    }
+    .p2{
+        margin-right: 15px;
+    }
+    .p3{
+        margin-right: 25px;
+    }
+}

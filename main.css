@@ -8,7 +8,6 @@ body{
     width: 70%;
     height: 100%;
     margin: 0;
-background-color: yellowgreen;
 background-image: url("BG.jpg");
 background-size: cover;
 display: flex;
@@ -18,7 +17,7 @@ align-items: center;
 .Logo{
     width: 50%;
     padding-top: 40%;
-    padding-bottom: 55%;
+    padding-bottom: 70%;
 }
 
 .leftcontainer
@@ -152,7 +151,6 @@ margin-right: 45px;
         width: 100%;
     }
     h1{
-        text-align: center;
         font-size: 28px;
         margin-bottom: 15px;
     }
